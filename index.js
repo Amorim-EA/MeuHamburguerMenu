@@ -7,5 +7,5 @@ botaoMenu.addEventListener('click', () => {
 });
 
 link.addEventListener('click', () => {
-  link.classList.toggle('menu-lateral--ativo')
+  link.classList.toggle('menu-lateral_link--ativo')
 });
