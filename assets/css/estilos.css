@@ -23,10 +23,6 @@ body {
   font-size: 24px;
 }
 
-.cabecalho_logo{
-  width: 40px;  
-}
-
 .menu-lateral {
     display: flex;
     flex-direction: column;
@@ -38,15 +34,9 @@ body {
     transition: .25s;
 }
 
-.menu-lateral_link--ativo {
-    left: 0;
-    transition: .25s;
-}
-
-.menu-lateral_logo {
-  width: 118px;
-  align-self: center;
-  padding: 16px;
+.menu-lateral--ativo {
+  left: 0;
+  transition: 0.25s;
 }
 
 .menu-lateral_link {
@@ -73,10 +63,6 @@ body {
 }
 
 .menu-lateral_link--inicio::before {
-  content: "\e902";
-}
-
-.menu-lateral_link--videos::before {
   content: "\e902";
 }
 
